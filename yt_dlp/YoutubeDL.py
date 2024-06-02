@@ -1638,7 +1638,7 @@ class YoutubeDL:
 
         format_dur = lambda dur: '%02d:%02d:%02d' % timetuple_from_msec(dur * 1000)[:-1]
         last_msg = ''
-
+        #start from here
         def progress(msg):
             nonlocal last_msg
             full_msg = f'{msg}\n'
